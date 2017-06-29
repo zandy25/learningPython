@@ -4,19 +4,19 @@ while 1 < 2:
         print("that sucks")
     elif x == "good":
         print("nice")
-    elif x == "good what about yours":
-        print("great thanks for asking")
-    elif x == "bad what about yours":
-        print("my whent great and it sucks that your day was bad")
-    elif x == "horrible":
-        print("well that sucks for you")
+        if x == "good what about yours":
+            print("great thanks for asking")
+        elif x == "bad what about yours":
+            print("my whent great and it sucks that your day was bad")
+        elif x == "horrible":
+            print("well that sucks for you")
     elif x == "horrible and yours":
         print("great")
     elif x == "great and horrible":
         print("nice and bad?")
     else:
-       print("sorry but i have no idea what you just said")
-                 
+        print("sorry but i have no idea what you just said")
+                     
     
 
                                         
